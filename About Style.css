@@ -1,0 +1,18 @@
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: white;
+    margin: 10px;
+}
+
+a:hover {
+    color: red;
+    background-color: white;
+}

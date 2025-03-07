@@ -1,0 +1,131 @@
+header {
+    background-color: black;
+    padding: 20px;
+    height: 10px;
+    width: auto;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    margin: 10px;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: red;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+    padding: 10px;
+}
+
+/* Form container */
+.form-container {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border: 1px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Toggle between login and register */
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f1f1f1;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.toggle-buttons button.active {
+    background: #007BFF;
+    color: #fff;
+}
+
+/* Form styling */
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.form button:hover {
+    background: #0056b3;
+}
+
+/* Link styling */
+.form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.form p a:hover {
+    text-decoration: underline;
+}
