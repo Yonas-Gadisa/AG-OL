@@ -20,6 +20,10 @@ a:hover {
     border-radius: 30px;
 }
 
+body {
+    background-image: url(bg.jbg);
+}
+
 /* Section */
 section {
     text-align: center;
