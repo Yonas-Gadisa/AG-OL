@@ -23,6 +23,8 @@ a:hover {
 /* Section */
 section {
     text-align: center;
+    font-family: 'monospace';
+    color: white;
 }
 
 /* Flexbox container for departments */
